@@ -1,2 +1,0 @@
-# Forage
-Forage App

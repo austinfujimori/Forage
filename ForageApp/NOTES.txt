@@ -1,0 +1,19 @@
+when party goer clicks check-in
+
+CONFIRM PAGE => PUT REQUEST
+
+changes order status to "USER CONFIRMED"
+
+when party host confirms
+
+change order status to "CONFIRMED"
+ - AUTHORIZE TRANSACTION
+ - delete order from ORDERS collection
+ - transfer roder to CONFIRMED_ORDERS collection
+
+
+CONFIRMED_ORDERS
+ - same body as ORDERS
+ - no status
+ - dateConfirmed
+
