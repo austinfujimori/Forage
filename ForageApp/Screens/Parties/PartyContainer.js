@@ -169,15 +169,7 @@ const PartyContainer = (props) => {
           ) : (
             <ScrollView>
               <View style={styles.titleContainer}>
-                <Text style={styles.title}>Parties</Text>
-              </View>
-              <View>
-                <Text style={styles.popularTitle}>Popular Today</Text>
-                <Banner
-                  navigation={props.navigation}
-                  featuredData={featuredParties}
-                  username={userProfile._id}
-                />
+                <Text style={styles.title}>Orders</Text>
               </View>
 
               <View style={styles.categoryContainer}>

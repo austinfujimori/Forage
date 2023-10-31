@@ -48,7 +48,7 @@ const Main = () => {
             />
           ),
           tabBarLabel: ({ color, size }) => (
-            <Text style={{ color: color, fontSize: 12 }}>Parties</Text>
+            <Text style={{ color: color, fontSize: 12 }}>Delivery</Text>
           ),
         }}
       />
@@ -71,7 +71,7 @@ const Main = () => {
                 fontSize: 12,
               }}
             >
-              Host
+              Order
             </Text>
           ),
         }}
@@ -96,7 +96,7 @@ const Main = () => {
                 fontSize: 12,
               }}
             >
-              Tickets
+              My Orders
             </Text>
           ),
         }}
